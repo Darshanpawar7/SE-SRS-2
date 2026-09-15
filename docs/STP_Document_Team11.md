@@ -369,6 +369,6 @@ The final Test Summary Report will include:
 
 | Role | Name | Signature / Date |
 | :--- | :--- | :--- |
-| QA Lead | GURUBELLI YEKAMBAR ESHWAR RAO (PES2UG24CS173) | Approved / 15-09-2026 |
-| Test Architect | Darshan P Pawar (PES2UG24CS143) | Approved / 15-09-2026 |
-| Course Coordinator | Software Engineering Faculty | Approved / 15-09-2026 |
+| QA Lead | GURUBELLI YEKAMBAR ESHWAR RAO (PES2UG24CS173) | Gurubelli Yekambar Eshwar Rao / 15-09-2026 |
+| Test Architect | Darshan P Pawar (PES2UG24CS143) | Darshan P Pawar / 15-09-2026 |
+| Course Coordinator | Software Engineering Faculty | ________________ / __________ |

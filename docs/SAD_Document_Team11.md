@@ -20,7 +20,7 @@
 | Role | Name | Department / Contact | Sign / Date |
 | :--- | :--- | :--- | :--- |
 | Team Lead | Darshan P Pawar | PES2UG24CS143 (CSE) | Darshan P Pawar / 15-09-2026 |
-| Course Coordinator | Software Engineering Faculty | Dept of CSE, PES University | Approved / 15-09-2026 |
+| Course Coordinator | Software Engineering Faculty | Dept of CSE, PES University | ________________ / __________ |
 
 ---
 
