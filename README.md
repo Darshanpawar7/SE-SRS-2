@@ -37,6 +37,7 @@ This repository contains the following formal engineering documents for the Spri
 | **Software Architecture & Design (SAD)** | Architecture patterns, UML component diagram, sequence diagrams, API design, security architecture (STRIDE), and technology stack documentation | `docs/SAD_Document_Team11.md` |
 | **Software Test Plan (STP)** | Test strategy, test items, features to be tested, test environment, schedule, roles, traceability matrix, metrics, and security validation procedures | `docs/STP_Document_Team11.md` |
 | **Team Work Division** | Detailed work breakdown and responsibility mapping across all 4 team members | `docs/Team_Work_Division.md` |
+| **Application Screenshots** | Visual evidence of the running system, each screen mapped to its SAD components and STP test cases | `docs/APPLICATION_SCREENSHOTS.md` |
 
 ### Formal Submission Reports
 
@@ -96,7 +97,51 @@ SprintFlow employs a **component-based single-page application architecture** wi
 
 ---
 
-## 5. Quick Start and Installation
+## 5. Application Screenshots
+
+The following screenshots are captured from the running application in its default
+zero-configuration mode, with no database credentials supplied. Full-resolution images and
+detailed captions are available in [docs/APPLICATION_SCREENSHOTS.md](docs/APPLICATION_SCREENSHOTS.md).
+
+### 5.1 Kanban Workflow Board
+
+Five-column workflow (Backlog, To Do, In Progress, Code Review, Done) with HTML5
+drag-and-drop transitions, story point totals per column, and combined assignee, priority
+and free-text filtering.
+
+![Kanban workflow board](docs/screenshots/01-kanban-board.png)
+
+### 5.2 Executive Visibility Dashboard
+
+Sprint KPIs, the SVG burndown chart comparing the ideal guideline against actual points
+remaining, workflow distribution, per-member capacity, and the real-time audit trail.
+
+![Executive visibility dashboard](docs/screenshots/02-dashboard-kpis.png)
+
+### 5.3 Sprint Management and Estimation
+
+Sprint lifecycle management with goal definition, date ranges, and Fibonacci capacity
+totals aggregated across assigned tasks.
+
+![Sprint management and estimation](docs/screenshots/03-sprint-estimation.png)
+
+### 5.4 Task Creation and Fibonacci Estimation
+
+Task creation dialog. Story points are offered as a fixed Fibonacci set
+(1, 2, 3, 5, 8, 13, 21), so a non-Fibonacci estimate cannot be entered.
+
+![Task creation modal](docs/screenshots/04-task-modal.png)
+
+### 5.5 Database Configuration
+
+The dual-mode data layer. The panel reports that the system is running on persistent
+browser storage and accepts Supabase credentials to switch to cloud persistence.
+
+![Database configuration panel](docs/screenshots/05-database-settings.png)
+
+---
+
+## 6. Quick Start and Installation
 
 ### Prerequisites
 - Node.js version 18.0.0 or higher
@@ -127,7 +172,7 @@ npm run build
 
 ---
 
-## 6. Repository Structure
+## 7. Repository Structure
 
 ```
 SE-SRS-2/
@@ -159,7 +204,7 @@ SE-SRS-2/
 
 ---
 
-## 7. Related Documents
+## 8. Related Documents
 
 - **SRS Document (First Submission):** [SE-SRS Repository](https://github.com/Darshanpawar7/SE-SRS)
 - **IEEE 42010** -- Systems and Software Engineering: Architecture Description
